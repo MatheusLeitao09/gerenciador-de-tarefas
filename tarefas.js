@@ -61,5 +61,11 @@ console.log("---------------------");
 
 // Filtrando tarefas
 
-let tarefasFiltradas = tarefas.filter(tarefa => tarefa.length > 15);
-console.log("A tarefa maior que 15 caracteres são:" + tarefasFiltradas);
+let tarefasFiltradas = adicionar.filter(tarefa => tarefa.length > 15);
+console.log(`As tarefas maior que 15 caracteres são: ${tarefasFiltradas.join(', ')}`);
+console.log("---------------------");
+
+// Ordena as tarefas em ordem alfabética
+
+tarefasFiltradas.sort();
+console.log("As tarefas em ordem alfabética ficou: " + tarefasFiltradas);
