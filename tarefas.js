@@ -38,5 +38,12 @@ console.log("---------------------");
 // Extraindo uma Parte da Lista
 
 console.log(`Extrair uma parte da lista(índices 2 a 4): ${tarefas.slice(2, 4)}`); 
+console.log("---------------------");
 
+// Alterando à lista
+
+let tarefaRemovida1 = tarefas.splice(3,1)
+console.log("Remover a tarefa do indice 3: " + tarefaRemovida1);
+console.log(`Lista atualizada: ${tarefas.join(', ')}`);
+console.log("---------------------");
 
