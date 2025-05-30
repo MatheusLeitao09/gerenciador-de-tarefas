@@ -51,3 +51,10 @@ console.log("---------------------");
 
 let tarefas1 = ['Limpar o ps5', 'Limpar o xbox']
 console.log(`Tarefas combinadas: ${tarefas.concat(tarefas1)}`);
+console.log("---------------------");
+
+// Transformando as tarefas
+
+let adicionar = tarefas.map(tarefa => `Fazer ${tarefa}`);
+console.log(`Transforma tarefas:  ${adicionar.join(', ')}`);
+
