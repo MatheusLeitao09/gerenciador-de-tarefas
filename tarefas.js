@@ -57,4 +57,9 @@ console.log("---------------------");
 
 let adicionar = tarefas.map(tarefa => `Fazer ${tarefa}`);
 console.log(`Transforma tarefas:  ${adicionar.join(', ')}`);
+console.log("---------------------");
 
+// Filtrando tarefas
+
+let tarefasFiltradas = tarefas.filter(tarefa => tarefa.length > 15);
+console.log("A tarefa maior que 15 caracteres são:" + tarefasFiltradas);
