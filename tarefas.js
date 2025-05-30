@@ -68,4 +68,10 @@ console.log("---------------------");
 // Ordena as tarefas em ordem alfabética
 
 tarefasFiltradas.sort();
-console.log("As tarefas em ordem alfabética ficou: " + tarefasFiltradas);
+console.log(`As tarefas em ordem alfabética ficou: ${tarefasFiltradas.join(', ')}`);
+
+// Invertendo a Ordem das Tarefas
+
+tarefasFiltradas.reverse();
+console.log(`As tarefas em ordem invertida ficou: ${tarefasFiltradas.join(', ')}`);
+
