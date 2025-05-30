@@ -24,5 +24,8 @@ console.log("---------------------");
 tarefas.shift();
 console.log("Tarefas após remover a primeira: " + tarefas);
 
-// 
+// Verificar se possui "IR A ACADEMIA"
+
+console.log(`Possui uma tarefa de ir a academia?: ${tarefas.includes("Ir à academia")}`);
+
 
