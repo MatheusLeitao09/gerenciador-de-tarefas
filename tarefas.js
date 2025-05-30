@@ -23,9 +23,15 @@ console.log("---------------------");
 
 tarefas.shift();
 console.log("Tarefas após remover a primeira: " + tarefas);
+console.log("---------------------");
 
 // Verificar se possui "IR A ACADEMIA"
 
 console.log(`Possui uma tarefa de ir a academia?: ${tarefas.includes("Ir à academia")}`);
+console.log("---------------------");
 
+// Transformar a lista em string
+
+console.log(`Playlist como string: ${tarefas.join(', ')}`);
+console.log("---------------------");
 
