@@ -10,7 +10,7 @@ console.log('---------------------');
 // Removendo a ultima tarefa
 
 let tarefaRemovida = tarefas.pop();
-console.log("Tarefas depois de remover a última: " + tarefaRemovida);
+console.log("Tarefas depois de remover a última: " + tarefas);
 console.log('---------------------');
 
 // Adiciona uma tarefa no ínicio
@@ -19,4 +19,10 @@ tarefas.unshift('Limpar o banheiro');
 console.log("Tarefas depois de adicionar uma no inicio: " + tarefas);
 console.log("---------------------");
 
+// Remover a primeira tarefa
+
+tarefas.shift();
+console.log("Tarefas após remover a primeira: " + tarefas);
+
 // 
+
