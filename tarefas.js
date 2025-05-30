@@ -47,3 +47,7 @@ console.log("Remover a tarefa do indice 3: " + tarefaRemovida1);
 console.log(`Lista atualizada: ${tarefas.join(', ')}`);
 console.log("---------------------");
 
+// Concatenando tarefas
+
+let tarefas1 = ['Limpar o ps5', 'Limpar o xbox']
+console.log(`Tarefas combinadas: ${tarefas.concat(tarefas1)}`);
