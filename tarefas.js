@@ -35,3 +35,8 @@ console.log("---------------------");
 console.log(`Playlist como string: ${tarefas.join(', ')}`);
 console.log("---------------------");
 
+// Extraindo uma Parte da Lista
+
+console.log(`Extrair uma parte da lista(índices 2 a 4): ${tarefas.slice(2, 4)}`); 
+
+
